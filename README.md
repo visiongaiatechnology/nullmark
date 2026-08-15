@@ -12,7 +12,7 @@
 # VGT NullMark
 ### Invisible Watermark Detection & Privacy Sanitizer
 
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-AGPLv3-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0.0--beta.2-orange?style=for-the-badge)](#)
 [![Status](https://img.shields.io/badge/Status-Beta-yellow?style=for-the-badge)](#)
 [![Platform](https://img.shields.io/badge/Platform-Windows_%7C_macOS_%7C_Linux-lightgrey?style=for-the-badge)](#-requirements)
@@ -448,7 +448,7 @@ ROADMAP.md                        Versioned future work and acceptance gates
 
 ## 📄 License
 
-**MIT · © 2026 VisionGaia Technology · Cologne, Germany**
+**AGPLv3 · © 2026 VisionGaia Technology · Cologne, Germany**
 
 Enterprise deployments, TIER-0 audits (VGT SafetySys™) and commercial support: [visiongaiatechnology.de](https://visiongaiatechnology.de)
 
@@ -460,6 +460,6 @@ Enterprise deployments, TIER-0 audits (VGT SafetySys™) and commercial support:
 
 [![VGT](https://img.shields.io/badge/VisionGaia-Technology-cyan?style=for-the-badge)](https://visiongaiatechnology.de)
 
-*VGT NullMark 1.0.0-beta.2 — Invisible Unicode Detection · C2PA Removal · Metadata Scrubbing · 9 File Formats · Safe/Strict/Maximum Modes · Re-Parse Verification · Rust/Tauri 2 · Zero Network · Local-First · MIT · Windows / macOS / Linux*
+*VGT NullMark 1.0.0-beta.2 — Invisible Unicode Detection · C2PA Removal · Metadata Scrubbing · 9 File Formats · Safe/Strict/Maximum Modes · Re-Parse Verification · Rust/Tauri 2 · Zero Network · Local-First · AGPLv3 · Windows / macOS / Linux*
 
 </div>
