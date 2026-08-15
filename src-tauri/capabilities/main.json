@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-local-text-engine",
+  "description": "Least-privilege capability for the single local NullMark window. No shell, filesystem, process, HTTP or opener permissions are granted.",
+  "windows": ["main"],
+  "local": true,
+  "permissions": [
+    "allow-analyze-text",
+    "allow-sanitize-text",
+    "allow-analyze-binary",
+    "allow-sanitize-binary"
+  ]
+}

@@ -1,0 +1,19 @@
+[[permission]]
+identifier = "allow-analyze-text"
+description = "Allows the main local webview to submit bounded text to the deterministic Unicode analyzer."
+commands.allow = ["analyze_text"]
+
+[[permission]]
+identifier = "allow-sanitize-text"
+description = "Allows the main local webview to submit bounded text to the deterministic Unicode sanitizer."
+commands.allow = ["sanitize_text"]
+
+[[permission]]
+identifier = "allow-analyze-binary"
+description = "Allows bounded PNG, JPEG, WebP, PDF, DOCX or ODT bytes to enter the format-specific analyzer."
+commands.allow = ["analyze_binary"]
+
+[[permission]]
+identifier = "allow-sanitize-binary"
+description = "Allows bounded validated PNG, JPEG, WebP, PDF, DOCX or ODT bytes to enter the format-specific sanitizer."
+commands.allow = ["sanitize_binary"]

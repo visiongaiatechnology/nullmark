@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "NullMark",
+  "version": "1.0.0-beta.2",
+  "identifier": "technology.visiongaia.nullmark",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "main",
+        "title": "NullMark Beta 1.0.0-beta.2",
+        "width": 1280,
+        "height": 860,
+        "minWidth": 820,
+        "minHeight": 650,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true,
+        "transparent": false
+      }
+    ],
+    "security": {
+      "capabilities": ["main-local-text-engine"],
+      "freezePrototype": true,
+      "dangerousDisableAssetCspModification": false,
+      "csp": {
+        "default-src": "'none'",
+        "connect-src": "ipc: http://ipc.localhost",
+        "font-src": "'self'",
+        "img-src": "'self' data:",
+        "style-src": "'self'",
+        "script-src": "'self'",
+        "object-src": "'none'",
+        "frame-src": "'none'",
+        "child-src": "'none'",
+        "worker-src": "'none'",
+        "media-src": "'none'",
+        "base-uri": "'none'",
+        "form-action": "'none'",
+        "frame-ancestors": "'none'"
+      },
+      "devCsp": {
+        "default-src": "'none'",
+        "connect-src": "ipc: http://ipc.localhost http://127.0.0.1:1420 ws://127.0.0.1:1420",
+        "font-src": "'self'",
+        "img-src": "'self' data:",
+        "style-src": "'self' 'unsafe-inline'",
+        "script-src": "'self' 'unsafe-inline'",
+        "object-src": "'none'",
+        "frame-src": "'none'",
+        "child-src": "'none'",
+        "worker-src": "'none'",
+        "media-src": "'none'",
+        "base-uri": "'none'",
+        "form-action": "'none'",
+        "frame-ancestors": "'none'"
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "targets": ["nsis", "msi"],
+    "publisher": "VisionGaia Technology",
+    "copyright": "Copyright © 2026 VisionGaia Technology",
+    "windows": {
+      "wix": {
+        "version": "1.0.0.2"
+      }
+    },
+    "category": "Utility",
+    "shortDescription": "Local text and file privacy sanitizer",
+    "longDescription": "NullMark detects invisible Unicode markers and removes supported privacy metadata from text, images and documents without uploading content to a remote service."
+  }
+}

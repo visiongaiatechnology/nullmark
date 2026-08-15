@@ -1,0 +1,1 @@
+NullMark test: wordjoiner | AB | space test | tagend.

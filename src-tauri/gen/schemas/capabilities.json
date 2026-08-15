@@ -1,0 +1,1 @@
+{"main-local-text-engine":{"identifier":"main-local-text-engine","description":"Least-privilege capability for the single local NullMark window. No shell, filesystem, process, HTTP or opener permissions are granted.","local":true,"windows":["main"],"permissions":["allow-analyze-text","allow-sanitize-text","allow-analyze-binary","allow-sanitize-binary"]}}

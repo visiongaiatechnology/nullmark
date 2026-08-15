@@ -1,0 +1,17 @@
+<!-- STATUS: DIAMANT VGT SUPREME -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NullMark shield logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111b16"/>
+      <stop offset="1" stop-color="#050806"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#75ed9f"/>
+      <stop offset="1" stop-color="#b8ffd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M256 70 405 128v111c0 98-57 166-149 203-92-37-149-105-149-203V128L256 70Z" fill="none" stroke="url(#accent)" stroke-width="24"/>
+  <path d="M174 330V180h31l102 103V180h31v150h-30L205 227v103h-31Z" fill="url(#accent)"/>
+  <circle cx="386" cy="126" r="18" fill="#75ed9f"/>
+</svg>
